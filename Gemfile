@@ -11,3 +11,8 @@ group :development do
   gem "jeweler", "~> 1.6.2"
   gem "rcov", ">= 0"
 end
+
+group :test do
+  gem 'rspec', :require => 'spec'
+  gem 'rack-test'
+end

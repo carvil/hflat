@@ -1,6 +1,9 @@
 = hflat
 
-Description goes here.
+This is a simple gem that extends the Hash class with a method to flatten a hash table.
+
+Some examples can be found in the examples directory.
+
 
 == Contributing to hflat
  
@@ -16,4 +19,3 @@ Description goes here.
 
 Copyright (c) 2011 Carlos. See LICENSE.txt for
 further details.
-
