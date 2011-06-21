@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "hflat.gemspec",
     "lib/hflat.rb",
     "spec/hflat_spec.rb",
     "spec/spec_helper.rb"
