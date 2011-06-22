@@ -4,6 +4,33 @@ This is a simple gem that extends the Hash class with a method to flatten a hash
 
 Some examples can be found in the specs.
 
+== Install
+
+* Install gem file
+
+hflat is available as a gem, so just install using the command below:
+
+  $ gem install hflat
+
+* To install from source
+
+  $ git clone git@github.com:carvil/hflat.git
+  $ cd hflat/
+  $ gem build hflat.gemspec
+  $ gem install hflat-0.1.0.gem
+
+== Examples
+
+The idea of this gem is to convert nested hashed into a flat hash only containing the key/value pairs where the pair is not ah hash.
+
+* Simple example of an hash containing error information. If one is just interested in the :error_code and the :error_message but doesn't know the depth, this is a good way of extracting that information:
+
+  > require 'hflat'
+  > hash = {:fault => { :get_user => {:error_code => 1, :error_message => "User not found"}}}
+  > hash.flatten
+  => {:error_code=>1, :error_message=>"User not found"}
+
+If you are using older versions of ruby, you might need to require 'rubygems' first.
 
 == Contributing to hflat
  
