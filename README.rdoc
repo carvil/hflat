@@ -6,13 +6,15 @@ Some examples can be found below and also in the specs.
 
 == Install
 
-* Install gem file
+* Gem file
 
 hflat is available as a gem, so just install using the command below:
 
   $ gem install hflat
 
-* To install it from source
+* From source
+
+Just follow the steps below:
 
   $ git clone git@github.com:carvil/hflat.git
 
@@ -26,7 +28,9 @@ hflat is available as a gem, so just install using the command below:
 
 The idea of this gem is to convert nested hashed into a flat hash only containing the key/value pairs where the pair is not ah hash.
 
-* Simple example of an hash containing error information. If one is just interested in the :error_code and the :error_message but doesn't know the depth, this is a good way of extracting that information:
+* Simple example of an hash containing error information.
+
+If one is just interested in the :error_code and the :error_message but doesn't know the depth, this is a good way of extracting that information:
 
   require 'hflat'
 
