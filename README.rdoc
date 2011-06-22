@@ -2,7 +2,7 @@
 
 This is a simple gem that extends the Hash class with a method to flatten a hash table.
 
-Some examples can be found in the examples directory.
+Some examples can be found in the specs.
 
 
 == Contributing to hflat
